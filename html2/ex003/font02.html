@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {    /* Utiliza para importar fontes externas */
+            font-family: "Fredoka";
+            src: url('fonts/FredokaOne-Regular.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+            /*
+                Tipos de formar()
+                -truetype (ttf)
+                -opentype (otf)
+                -embedded-opentype
+                -truetype-aat (Apple Advanced Typography)
+                -svg
+
+            */
+        }
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: aquamarine;
+            color: rgb(91, 33, 17);
+        }
+        h1{
+            font-family: 'Fredoka', Times New Roman, Times, serif;
+            font-size: 3em;       
+            color: darkorange; 
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, Mundo!</h1>
+    <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia sunt fugiat facere tenetur nesciunt veritatis saepe vero possimus eius, ea harum ipsam maxime maiores quia praesentium, quibusdam eaque! Officia, repellat.
+    </p>
+</body>
+</html>
