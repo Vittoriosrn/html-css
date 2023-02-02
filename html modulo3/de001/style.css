@@ -16,7 +16,7 @@ header{
 }
 header h1{
     font-variant: small-caps;
-    font-size: 136px;
+    font-size: 10vw;
     font-family: 'Passion One', cursive;
 }
 header p{
@@ -32,7 +32,7 @@ a:hover{
 }
 section{
     font-family: Sriracha, cursive;
-    font-size: 47px;
+    font-size: 3vw;
     line-height: 2em;
     padding: 10vh 0px 10vh 30px;
 }
@@ -71,6 +71,7 @@ footer{
     background-color: black;
 }
 footer p{
+    font-size: 1.3vw;
     color: white;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
