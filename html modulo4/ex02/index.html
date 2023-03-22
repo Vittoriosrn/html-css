@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Meu Formulário</h1>
+    <form action="cadastro.js" method="post">
+        <p><label for="ifirstname">Nome:</label> 
+            <input type="text" nome="firstname" id="ifirstname"></p>
+        <p><label for="ilastname">Sobrenome:</label> 
+            <input type="text" nome="lastname" id="ilastname"></p>
+        <input type="submit" value="Enviar">
+    </form>
+
+    <h1>Meu formulário 2</h1>
+    <form action="cadastro2.js" method="post" autocomplete="off">
+        <p><label for="iphone">Telefone:</label><input type="text" nome="phone" id="iphone"></p>
+        <p><label for="iemail">E-mail</label><input type="text" name="email" id="iemail"></p>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
